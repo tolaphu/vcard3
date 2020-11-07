@@ -34,6 +34,7 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
 	<link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
+
     <!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
     <link rel="stylesheet" type="text/css" href="assets/demo/style-demo.css"/>
@@ -62,7 +63,7 @@
 		    <header class="header box">
 			    <div class="header__left">
 				    <div class="header__photo">
-					    <img class="header__photo-img" src="assets/images/favicons/apple-touch-icon-500x500.png" alt="Nguyen Xuan Phu">
+					    <img class="header__photo-img" src="assets/img/main-photo.svg" alt="Ronald Robertson">
 					</div>
 					<div class="header__base-info">
 					    <h4 class="title titl--h4">Nguyen Xuan Phu</h4>
@@ -105,7 +106,7 @@
 		        <div class="col-12 col-md-12 col-lg-10">
 				    <div class="box box-content">
 					    <div class="pb-2">
-		                    <h1 class="title title--h1 first-title title__separate">Image blog</h1>
+		                    <h1 class="title title--h1 first-title title__separate">Image Blog</h1>
 					    </div>
 						
 						<!-- Filter -->
@@ -114,16 +115,15 @@
 			                <ul class="filter">
 			                    <li class="filter__item">Category</li>
 				                <li class="filter__item active" data-filter="*"><a class="filter__link active" href="#filter">All</a></li>
-
-			                </ul>
-			                <input type="hidden" name="changemetoo"/>
+				                <li class="filter__item" data-filter=".category-allimageblog"><a class="filter__link" href="#filter">All image blog</a></li>
+				                <li class="filter__item" data-filter=".category-villageofhope"><a class="filter__link" href="#filter">Village of hope</a></li>
 		                </div>
 
 						<!-- Gallery -->
 				        <div class="gallery-grid js-grid-row js-filter-container">
 					        <div class="gutter-sizer"></div>
 					        <!-- Item 1 -->
-					        <figure class="gallery-grid__item category-concept">
+					        <figure class="gallery-grid__item category-allimageblog">
 						        <div class="gallery-grid__image-wrap">
                                     <img class="gallery-grid__image cover lazyload" src="assets/img/5b6976c8e6c13ea0a35cc571586ed906de49b9f3.jpg" data-zoom alt="" />
 						        </div>
@@ -131,7 +131,7 @@
                             </figure>
 
 					        <!-- Item 2 -->
-					        <figure class="gallery-grid__item category-concept">
+					        <figure class="gallery-grid__item category-allimageblog">
 						        <div class="gallery-grid__image-wrap">
 									<img class="gallery-grid__image cover lazyload" src="assets/img/9e64879b2e566f750a2863f41d432dc1dec73622.jpg" data-zoom alt="" />
 								</div>	
@@ -139,21 +139,28 @@
 							</figure>
 
 							<!-- Item 3 -->
-							<figure class="gallery-grid__item category-design">
+							<figure class="gallery-grid__item category-allimageblog">
 								<div class="gallery-grid__image-wrap">
 									<img class="gallery-grid__image cover lazyload" src="assets/img/45f22f7e69f6ec07a45c33e2b33c79f130cb6ea2.jpg" data-zoom alt="" />
 								</div>	
 
 							</figure>
-							
+
 							<!-- Item 4 -->
-							<figure class="gallery-grid__item category-design">
+							<figure class="gallery-grid__item category-allimageblog">
 								<div class="gallery-grid__image-wrap">
 									<img class="gallery-grid__image cover lazyload" src="assets/img/ae4530d2310674f7b13f48bf68be3365c21318a3.jpg" data-zoom alt="" />
-								</div>	
+								</div>
 
 							</figure>
 
+							<!-- Item 5 -->
+							<figure class="gallery-grid__item category-villageofhope">
+								<div class="gallery-grid__image-wrap">
+									<img class="gallery-grid__image cover lazyload" src="assets/img/DSC_0363.jpg" data-zoom alt="" />
+								</div>
+
+							</figure>
 						</div><!-- Gallery End -->
 					</div>
 					
@@ -175,8 +182,7 @@
              <path d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z"/>
         </clipPath>		
     </svg>
-
-
+    
 	
 	<!-- JavaScripts -->
 	<script src="assets/js/jquery-3.4.1.min.js"></script>
